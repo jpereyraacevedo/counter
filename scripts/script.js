@@ -19,13 +19,13 @@ buttons.forEach((btn)=> {
         count = 0
        }
        if (count > 0 ) {
-        value.style.color = "green"
+        value.style.color = "#78D633"
        }
        if (count < 0 ) {
-        value.style.color = "red"
+        value.style.color = "#D93229"
        }
        if (count == 0) {
-        value.style.color = "blue"
+        value.style.color = "#232226"
        }
        value.textContent = count;
     })
